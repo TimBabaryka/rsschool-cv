@@ -36,39 +36,27 @@ body {
     border-radius: 15%;
 }
 
-.skills {
-    padding: 10px; 
-    margin: 10px;   
-}
-
-.code {
-    text-align: center;
-    position: relative;
-    top:-164px;
-}
 
 .education {
-    float: right;
-    text-align: right;
-    padding: 10px;
-    margin: 10px;
-    position: relative;
-    top: -3px
+    margin-left: 40px;
     
-}
+} 
 
 .experience {
-    padding: 10px; 
-    margin: 10px;
+    margin-left: 240px;
 }
 
-.languages {
-    margin: 10px;
-    padding: 10px;
-    text-align: right;
-    position: absolute;
-    width: 760px;
-    top: 413px;
+.new {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.old {
+    display:flex;
+    justify-content: space-between;
+    padding-left: 10px;
 }
 
 hr {
