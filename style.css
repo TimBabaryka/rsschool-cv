@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
     
@@ -514,8 +515,7 @@ p {
     margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
-   
-   
+    
 }
 
 .box:hover {
@@ -534,15 +534,18 @@ color:#ffffff;
     margin: 0 auto;
 
 }
+
 .colright {
     margin: 0 auto;
 
 }
+
 .col h3 {
     margin-left: 20px;
     padding: 10px;
     
 }
+
 .col p {
     margin-left: 10px;
 
