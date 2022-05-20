@@ -241,6 +241,11 @@ body {
   color: white;
   text-decoration: none;
 }
+.textSkills {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
 
 .text:hover {
   color: rgb(0, 255, 242);
@@ -325,6 +330,7 @@ p {
 }
 
 .experience {
+  flex-direction: column;
   display: flex;
   justify-content: space-around;
   padding-bottom: 20px;
@@ -353,6 +359,7 @@ p {
 .skillscolor {
   color: #fff;
   align-items: center;
+  width: 205px;
 }
 
 .title3 {
