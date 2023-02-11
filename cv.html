@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,100&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link
+            rel="stylesheet"
+            href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Responsive CV</title>
+</head>
+<body>
+<header class="containerh">
+    <div class="headernav">
+        <div id="myMenu">
+            <a class="position" href="#contact">Contacts</a>
+            <a class="position" href="#Education">Education</a>
+            <a class="position" href="#Languages">Languages</a>
+            <a class="position" href="#AboutMe">AboutMe</a>
+            <a class="position" href="#Experience&Skills">Experience & Skills</a>
+            <a class="position" href="#Myprojects">My Projects</a>
+        </div>
+    </div>
+
+    <div class="icons1">
+        <a href="javascript:void(0);" onclick="myMenu()">
+            <i class="fa fa-bars colorline"> Menu</i>
+        </a>
+    </div>
+</header>
+
+<main class="main-container">
+    <div class="left-side">
+        <div class="prtext">
+            <div class="photo">
+                <img src="./assets/images/Timmy.jpg" alt="Tsimafei Babaryka"/>
+            </div>
+            <h1>Tsimafei Babaryka<br/><span>JavaScript Developer</span></h1>
+        </div>
+        <nav class="contact-info" id="contact">
+            <h3 class="title diagonalw">
+            <span
+            ><i class="fa fa-comments" aria-hidden="true"></i> Contact
+              Info</span
+            >
+            </h3>
+            <ul class="sizeul">
+                <li>
+              <span class="icon"
+              ><i class="fa fa-phone" aria-hidden="true"></i
+              ></span>
+                    <a class="text" href="tel:+375291013442">+375291013442</a>
+                </li>
+                <li>
+              <span class="icon"
+              ><i class="fa fa-envelope-open" aria-hidden="true"></i
+              ></span>
+                    <a class="text" href="mailto:tbabaryka@yahoo.com"
+                    >tbabaryka@yahoo.com</a
+                    >
+                </li>
+                <li>
+              <span class="icon"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></span>
+                    <a
+                            class="text"
+                            href="https://www.linkedin.com/in/tsimafei-babaryka-6a0b65140/"
+                            title="Tim Babaryka"
+                            target="_blank"
+                    >Linkedin</a
+                    >
+                </li>
+                <li>
+              <span class="icon"
+              ><i class="fa fa-map-marker" aria-hidden="true"></i
+              ></span>
+                    <span> Gomel, Belarus</span>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="contact-info education" id="Education">
+            <h3 class="titleedu diagonalw">
+            <span
+            ><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              Education</span
+            >
+            </h3>
+            <ul class="sizeul">
+                <li>
+                    <h4>
+                <span class="icon"
+                ><i class="fa fa-university" aria-hidden="true"></i
+                ></span>
+                        University of Westminster
+                    </h4>
+                    <h5 class="unibox">2014-2018</h5>
+                    <h4 class="unibox">Bachelor Degree in IR and Spanish</h4>
+                </li>
+                <li>
+                    <h4>
+                <span class="icon"
+                ><i class="fa fa-university" aria-hidden="true"></i
+                ></span>
+                        Universitat Pompeu Fabra
+                    </h4>
+                    <h5 class="unibox">2016-2017</h5>
+                    <h4 class="unibox">Year abroad</h4>
+                </li>
+                <li>
+                    <h4>
+                <span class="icon"
+                ><i class="fa fa-university" aria-hidden="true"></i
+                ></span>
+                        University of Bristol
+                    </h4>
+                    <h5 class="unibox">2018-2020</h5>
+                    <h4 class="unibox">Master Degree in IR</h4>
+                </li>
+                <li>
+                    <h4>
+                <span class="icon"
+                ><i class="fa fa-university" aria-hidden="true"></i
+                ></span>
+                        Rolling Scope School
+                    </h4>
+                    <h5 class="unibox">2021-2022</h5>
+                    <h4 class="unibox">JS,HTML,CSS</h4>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact-info languages" id="Languages">
+            <h3 class="titleedu diagonalw">
+            <span
+            ><i class="fa fa-language" aria-hidden="true"></i> Languages</span
+            >
+            </h3>
+            <ul class="sizeul">
+                <li>
+                    <span class="textSkills"> Russian</span>
+                    <p class="text">Level: Native</p>
+                </li>
+                <li>
+                    <span class="textSkills"> Belarusian</span>
+                    <p class="text">Level: Native</p>
+                </li>
+                <li>
+                    <span class="textSkills"> English</span>
+                    <p class="text">Level: Advanced</p>
+                </li>
+                <li>
+                    <span class="textSkills"> Spanish</span>
+                    <p class="text">Level: Intermediate</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact-info" id="Skills">
+            <h2 class="titleedu diagonalw">
+                <span><i class="fa fa-cog" aria-hidden="true"></i> Skills</span>
+            </h2>
+            <ul class="skillscolor">
+                <li class="textSkills">Responsible</li>
+                <li class="textSkills">Flexible</li>
+                <li class="textSkills">Hardworking</li>
+                <li class="textSkills">Decision making</li>
+                <li class="textSkills">Diplomacy</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="right-side" id="AboutMe">
+        <article class="aboutme">
+            <h2 class="title2 diagonal">
+                <span><i class="fa fa-user" aria-hidden="true"></i> Profile</span>
+            </h2>
+            <p>
+                I graduated from the University of Westminster in 2018 where I
+                obtained the degree in International Relations and Spanish. I also
+                undertook the opportunity to go to Spain as a year-abroad student to
+                improve my Spanish and for cultural enrichment purposes. After that
+                I decided to continue my education in the University of Bristol in
+                the field of International Relations. I successfully graduated in
+                February 2020. I have started studying programming in July 2021 in
+                RS School. The first two months I spent covering the basics of
+                HTML,CSS and GitHub. Then we started working with JS and gradually
+                migrated to TS and at the same time getting acquainted with Webpack.
+                I finished RS School in February 2022 and was accepted as intern in
+                Exadel and EPAM. In Exadel I was developing a full-scale app called
+                Budgetify that can manage your finances as a full-stack intern. At
+                the first month I used NodeJS(Express) to write server side and
+                endpoints of the app. For storing data I used MongoDB. The second
+                month I was primarily working with Angular writing front-end part of
+                the app simultaneously updating backend part. In EPAM I worked with Angular and JS completing different
+                tasks.
+                I currently work as a React developer. In our project we use libraries like Redux TKR, react mui,
+                styled-components, react-hook-forms and etc. To get data from the server we use GraphQL.
+                My tasks vary.
+                I am responsible for creating forms, setting up validation and connecting the requests
+                I can do search, create tables, create hoc components.
+                We follow agile methodology and have daily meeting  to keep up with the developments stage and use Jira to track the time and assign tasks.
+            </p>
+        </article>
+
+        <div class="aboutme experience" id="Experience&Skills">
+            <section class="right">
+                <h2 class="title3 diagonal">
+              <span
+              ><i class="fa fa-cog" aria-hidden="true"></i> IT
+                Experience</span
+              >
+                </h2>
+                <p>Company: ITTAS</p>
+
+                <p>Position: Front-end React Developer</p>
+
+                <p>Period of work: August 2022 - Present</p>
+                <p>Technologies: React, TS, Redux Toolkit, Styled Components, GraphQL</p>
+            </section>
+            <section class="right">
+                <h2 class="title3 diagonal">
+              <span
+              ><i class="fa fa-cog" aria-hidden="true"></i> IT
+                Experience</span
+              >
+                </h2>
+                <p>Company: EPAM</p>
+
+                <p>Position: Front-end Intern</p>
+
+                <p>Period of internship: March 2022 - July 2022</p>
+                <p>Technologies: JS, TS, CSS(SCSS), Angular</p>
+            </section>
+            <section class="right">
+                <h2 class="title3 diagonal">
+              <span
+              ><i class="fa fa-cog" aria-hidden="true"></i> IT
+                Experience</span
+              >
+                </h2>
+                <p>Company: Exadel</p>
+
+                <p>Position: Full-stack Intern</p>
+
+                <p>Period of internship: February 2022 - April 2022</p>
+                <p>
+                    Technologies: JS, TS, CSS(SCSS), Angular, NodeJS(Express), MongoDB
+                </p>
+            </section>
+        </div>
+
+        <section class="project" id="Myprojects">
+            <h2 class="title2 diagonal">
+            <span
+            ><i class="fa fa-archive" aria-hidden="true"></i> My
+              projects</span
+            >
+            </h2>
+            <a
+                    class="projsec box text2"
+                    href="https://github.com/TimBabaryka/InternshipEPAM/tree/main/angular/myapp"
+                    target="»_blank"
+            >
+                <div class="col">
+                    <h3>News App</h3>
+
+                    <p class="colorp">
+                        I created my own news and blog app. You can create your own post or read news articles form news
+                        api.
+                        I made it in June 2022 with
+                        Angular and NodeJS(Express).
+                    </p>
+                </div>
+
+                <div class="colright">
+                    <img class="VP" src="./assets/images/forcv.png" alt="Task"/>
+                </div>
+            </a>
+
+            <a
+                    class="projsec box text2"
+                    href="https://github.com/TimBabaryka/Exadel-Internship"
+                    target="»_blank"
+            >
+                <div class="col">
+                    <h3>Budgetify</h3>
+
+                    <p class="colorp">
+                        The full scale app that can help you with, <br/>
+                        managing your daily finances. <br/>
+                        I made it in April 2022 with Angular and NodeJS(Express). <br/>
+                    </p>
+                </div>
+
+                <div class="colright">
+                    <img class="VS" src="./assets/images/Budgetify.png" alt="Task"/>
+                </div>
+            </a>
+
+            <a
+                    class="projsec box text2"
+                    href="https://objective-clarke-0f90a3.netlify.app/"
+                    target="»_blank"
+            >
+                <div class="col">
+                    <h3>Christmas Tree</h3>
+
+                    <p class="colorp">
+                        The app where you dress your christmas tree You can chose
+                        christmas toys and with snow effect and music. <br/>
+                        I made it in December 2021 with TS,SCSS and Webpack. <br/>
+                    </p>
+                </div>
+
+                <div class="colright">
+                    <img class="VS" src="./assets/images/christmas.png" alt="Task"/>
+                </div>
+            </a>
+
+            <a
+                    class="projsec box text2"
+                    href="https://rolling-scopes-school.github.io/timbabaryka-JSFE2021Q3/art-quiz/src/index.html#"
+                    target="»_blank"
+            >
+                <div class="col">
+                    <h3>Art Quiz</h3>
+
+                    <p class="colorp">
+                        The quiz game that let you guess famous pictures <br/>
+                        and artists listening to atmospheric music. <br/>
+                        I made it in November 2021 with TS,SCSS and Webpack. <br/>
+                    </p>
+                </div>
+
+                <div class="colright">
+                    <img class="VS" src="./assets/images/quiz.png" alt="Task"/>
+                </div>
+            </a>
+
+            <a
+                    class="projsec box text2"
+                    href="https://rolling-scopes-school.github.io/timbabaryka-JSFE2021Q3/momentum/#"
+                    target="»_blank"
+            >
+                <div class="col">
+                    <h3>Momentum</h3>
+
+                    <p class="colorp">
+                        The app that allows to check date,time and current weather in
+                        your city,
+                        <br/>
+                        get an inspirational quote and listen to music in player. <br/>
+                        I made it in October 2021 with JS,CSS adn HTML. <br/>
+                    </p>
+                </div>
+
+                <div class="colright">
+                    <img class="VS" src="./assets/images/momentum.png" alt="Task"/>
+                </div>
+            </a>
+            <a
+                    class="projsec box text2"
+                    href="https://rolling-scopes-school.github.io/timbabaryka-JSFEPRESCHOOL/vertical-slider/"
+                    target="»_blank"
+            >
+                <div class="col">
+                    <h3>Vertical Slider</h3>
+                    <p class="colorp">
+                        The VS designed to show the pictures. <br/>
+                        It has automode feature that automatically shows pictures.
+                        <br/>
+                        I made it in August 2021 with JS,CSS adn HTML. <br/>
+                    </p>
+                </div>
+
+                <div class="colright">
+                    <img class="VS" src="./assets/images/VS.JPG" alt="Task"/>
+                </div>
+            </a>
+
+
+        </section>
+    </div>
+</main>
+<footer class="container">
+    <div class="icons">
+        <a
+                href="https://github.com/TimBabaryka"
+                target="_blank"
+                class="iconsize"
+        ></a>
+
+        <h6 class="item">2023</h6>
+    </div>
+</footer>
+
+<script>
+    function myMenu() {
+        let a = document.getElementById("myMenu");
+        if (a.style.display === "block") {
+            a.style.display = "none";
+        } else {
+            a.style.display = "block";
+        }
+    }
+</script>
+</body>
+</html>
